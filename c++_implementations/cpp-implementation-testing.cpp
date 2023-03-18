@@ -43,7 +43,7 @@ int main(int argc, char const *argv[])
         }
         Timer t;
         quicksort(tab,0,i-1);
-        std::cout << i << "\t" << t.elapsed() << "\n";
+        std::cout << i << " " << t.elapsed() << "\n";
 
     }
     std::cout << "Selection Sort\n";
@@ -59,7 +59,7 @@ int main(int argc, char const *argv[])
         }
         Timer t;
         selectionSort(tab,i);
-        std::cout << i << "\t" << t.elapsed() << "\n";
+        std::cout << i << " " << t.elapsed() << "\n";
     }
     return 0;
 }
